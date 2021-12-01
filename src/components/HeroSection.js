@@ -6,16 +6,16 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <video src='/videos/video-3.mp4' autoPlay loop muted  />
+      <h1>COMING SOON..</h1>
+      <p>ZEALOUS 2022</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          EXPLORE
         </Button>
         <Button
           className='btns'
@@ -23,7 +23,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          REGISTER<i className='far fa' />
         </Button>
       </div>
     </div>
