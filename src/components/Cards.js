@@ -12,32 +12,32 @@ function Cards() {
             <CardItem
               src='images/img-9.jpg'
               text='EVENT1'
-              label='Adventure'
+              label='TECH'
               path='/services'
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              text='EVENT_2'
+              label='TECH'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              text='EVENT_3'
+              label='LEISURE'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/img-6.jpg'
+              text='EVENT_4'
+              label='TECH'
               path='/events'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='images/img-7.jpg'
+              text='EVENT_5'
               label='Adrenaline'
               path='/sign-up'
             />

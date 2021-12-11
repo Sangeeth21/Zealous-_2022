@@ -38,7 +38,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>SOCIAL MEDIA</h2>
-            <Link to='</'>Official College Website</Link>
+            <Link to='/'>Official College Website</Link>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
@@ -56,14 +56,7 @@ function Footer() {
           </div>
           <small class='website-rights'>ZEALOUS © 2022</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
+            
             <Link
               class='social-icon-link instagram'
               to='/'
@@ -73,12 +66,14 @@ function Footer() {
               <i class='fab fa-instagram' />
             </Link>
             <Link
+           
               class='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i class='fab fa-youtube'  />
+              <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
             </Link>
             <Link
               class='social-icon-link twitter'
@@ -88,13 +83,14 @@ function Footer() {
             >
               <i class='fab fa-twitter' />
             </Link>
+            
             <Link
-              class='social-icon-link twitter'
+              class='social-icon-link facebook'
               to='/'
               target='_blank'
-              aria-label='LinkedIn'
+              aria-label='Facebook'
             >
-              <i class='fab fa-linkedin' />
+            <i class='fab fa-facebook-f' />
             </Link>
           </div>
         </div>
